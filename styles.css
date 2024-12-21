@@ -1,0 +1,163 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #8dc63f; /* Primary Green */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #1c1a54; /* Accent Dark Blue */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Announcements, Progress Reports, and Conference Logs Section */
+.report, .post, .announcement-box, .log {
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Heading and text for reports, posts, and logs */
+.report h3, .post h3 {
+    color: #8dc63f; /* Primary Green */
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.report p, .post p, .announcement-box p, .log p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 5px 0;
+}
+
+/* Hover effect for I-Ready Math Report text */
+.report h3:hover, .post h3:hover {
+    color: #06aeef; /* Secondary Blue */
+    cursor: pointer;
+}
+
+/* Buttons */
+button {
+    background-color: #8dc63f; /* Primary Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #06aeef; /* Secondary Blue */
+}
+
+/* Messaging Styles */
+#messaging {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.chat-window {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column; /* Stacks the messages vertically */
+}
+
+.message-bubble {
+    display: inline-block; /* Ensures each message takes up a full line */
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin: 10px 0; /* Vertical spacing between bubbles */
+    min-width: 80%;
+    max-width: fixed;
+    word-wrap: break-word;
+}
+
+.received {
+    background-color: #e3e3e3; /* Light grey for received message */
+    text-align: left;
+}
+
+.sent {
+    background-color: #8dc63f; /* Primary Green for sent message */
+    color: white;
+    text-align: right;
+}
+
+.typing-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.typing-bar input {
+    width: 85%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.typing-bar button {
+    padding: 10px 20px;
+    background-color: #8dc63f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.typing-bar button:hover {
+    background-color: #06aeef; /* Secondary Blue on hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #8dc63f; /* Primary Green */
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messaging - Parent Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Announcements</a></li>
+                <li><a href="messaging.html">Messaging</a></li>
+                <li><a href="progress-reports.html">Progress Reports</a></li>
+                <li><a href="conference-log.html">Conference Log</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="messaging">
+            <h2>Messaging</h2>
+
+            <!-- Chat window (messages) -->
+            <div class="chat-window">
+                <div class="message-bubble received">
+                    <p><strong>Ms. Smith:</strong> Hello! How can I help you today?</p>
+                </div>
+                <div class="message-bubble sent">
+                    <p><strong>John Doe (Parent):</strong> I have a question about my child's progress report.</p>
+                </div>
+                <div class="message-bubble received">
+                    <p><strong>Ms. Smith:</strong> Of course! What specific information are you looking for?</p>
+                </div>
+                <div class="message-bubble sent">
+                    <p><strong>John Doe (Parent):</strong> I want to know how they did in math.</p>
+                </div>
+            </div>
+
+            <!-- Typing bar -->
+            <div class="typing-bar">
+                <input type="text" placeholder="Type your message..." id="messageInput">
+                <button id="sendMessageBtn">Send</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Catapult Learning</p>
+    </footer>
+</body>
+</html>
